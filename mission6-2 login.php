@@ -101,6 +101,7 @@ input /*入力フォームのレイアウト*/{
     }
 }
 ?>
+
     <form action="mission6-2 login.php" method="post">
     <h2>ログイン</h2>
     

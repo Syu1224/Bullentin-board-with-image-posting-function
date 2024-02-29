@@ -114,6 +114,7 @@ input /*入力フォームのレイアウト*/{
 }
 }
 ?>
+        
         <form action="" method="POST">
             <h2>ユーザー登録</h2>
                 <div class="control">
