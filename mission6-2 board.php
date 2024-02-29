@@ -2,7 +2,7 @@
 <html lang ="ja">
 <head>
 <meta charset="utf-8" />
-<title>画像投稿機能付き掲示板</title>
+<title>ログイン機能付き掲示板</title>
 <style>
 .post-image {
     width: 450px; /* 幅を300ピクセルに指定 */
@@ -137,7 +137,7 @@ h2 {
     
     date_default_timezone_set('Asia/Tokyo');
     // DB接続設定
-    $dsn = 'データベース';
+    $dsn = 'データベース名';
     $user = 'ユーザー名';
     $password = 'パスワード';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
