@@ -127,7 +127,6 @@ h2 {
     //ログインユーザーの表示
     echo $session_name."でログイン中<br>";
     
-    
     $directory = 'uploads';
     // ディレクトリが存在しない場合は作成する
     if (!is_dir($directory)) {

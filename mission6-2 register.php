@@ -74,7 +74,6 @@ input /*入力フォームのレイアウト*/{
 </head>
 <body>
     <div class="content">
-
 <?php
     // DB接続設定
     $dsn = 'データベース';
